@@ -6,15 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "browserify js/main.js -o js/bundle.js",
-    "start" : "http-server"
+    "bundle-css" : "browserify -g browserify-css js/main.js > js/bundle.js",
+    "start": "http-server"
   },
   "author": "bebs",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bertrandmd/map-template.git"
+  },
   "dependencies": {
     "leaflet": "^0.7.7",
     "leaflet-ajax": "^2.0.0"
   },
   "devDependencies": {
+    "browserify-css": "^0.9.1",
     "drmonty-leaflet-awesome-markers": "^2.0.2",
     "font-awesome": "^4.6.3"
   }

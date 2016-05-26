@@ -4,3 +4,4 @@ var L = require('leaflet');
 require('leaflet-ajax');
 //require('font-awesome');
 require('drmonty-leaflet-awesome-markers');
+require('../css/app.css');
