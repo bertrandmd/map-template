@@ -42,7 +42,7 @@ baseMaps = {
     "OSM": osm
 };
 
-var adherents = L.geoJson.ajax("https://raw.githubusercontent.com/bertrandmd/map-template/master/data/adherents_lr.geojson";{
+var adherents = L.geoJson.ajax("https://raw.githubusercontent.com/bertrandmd/map-template/master/data/adherents_lr.geojson",{
 ///data/adherents_lr.geojson",{
   //onEachFeature:onEachFeature,
   //style:myStyle
