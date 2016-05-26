@@ -1,0 +1,6 @@
+@import url("node_modules/leaflet/dist/leaflet.css");
+@import url("node_modules/drmonty-leaflet-awesome-markers/css/leaflet.awesome-markers.css");
+@import url("node_modules/font-awesome/css/font-awesome.css");
+body {
+    background-color: #fff;
+}
