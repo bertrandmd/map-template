@@ -1,3 +1,8 @@
 # map-template
 repo de template leaflet pour mes projets
-s
+
+npm install && start --> lance http-server en localhost
+
+
+## Leaflet tips :
+
